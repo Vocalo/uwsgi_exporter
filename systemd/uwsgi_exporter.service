@@ -6,7 +6,7 @@ After=multi-user.target
 [Service]
 Type=idle
 EnvironmentFile=/etc/default/uwsgi_exporter
-ExecStart=/opt/uwsgi_exporter-0.8.0.linux-amd64/uwsgi_exporter
+ExecStart=/opt/uwsgi_exporter-0.8.0.linux-amd64/uwsgi_exporter $ARGS
 
 [Install]
 WantedBy=multi-user.target

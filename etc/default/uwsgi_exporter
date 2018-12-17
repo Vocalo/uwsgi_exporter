@@ -1,6 +1,6 @@
 # Set the command line arguments for uwsgi_exporter
 
-ARGS="--stats.uri 'unix:///mnt/extra/var/run/uwsgi/uwsgi-stats.sock'"
+ARGS='--stats.uri="unix:///var/run/uwsgi/uwsgi-stats.sock"'
 
 ### Flags
 
